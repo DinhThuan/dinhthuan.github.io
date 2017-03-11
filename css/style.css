@@ -34,19 +34,20 @@ body{
 .dropdown {
 	position: relative;
 	display: inline-block;
-	top: 15px;
-	padding-left: 55px;
+	top: 13px;
+	padding-left: 35px;
 }
 
 .dropdown-content {
 	text-align: center; /*them*/
 	/*padding-right: 10px;  dang them dong nay*/
-	margin-left: -13px;
+	margin-left: -70px;
 	display: none;
 	position: absolute;
 	/*background-color: #079e4b;*/
 	background-color: rgba(7,158,75,0.8);
-	width: 150px;
+	width:160px;
+
 	/*border: 1px solid black;*/
 
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
