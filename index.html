@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Công ty cổ phần công nghệ và phát triển phần mềm số 1 Việt Nam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="ionicons-2.0.1/css/ionicons.min.css"/>
     <script type="text/javascript" src="javascript.js"></script>
     <script type="text/javascript">
       
     </script>
     <style type="text/css">
-      
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        /*width: 70%;*/
+        margin: auto;
+      }
     </style>
   </head>
   <body>
@@ -28,7 +32,7 @@
           <h4>Luôn bên bạn khi bạn cần tới chúng tôi</h4>
         </div>
         <div class="dropdown col-xs-3">
-          <span class="dropdown"><i style="font-size: 50px" class="ion-navicon-round"></i></span>
+          <span class="dropdown"><i style="font-size: 45px" class="ion-navicon-round"></i></span>
               <div class="dropdown-content">
                   <a href="index.html">Trang Chủ</a>
                   <a href="#">Sức khỏe</a>
@@ -43,7 +47,62 @@
         </div>
       </div>
       <div class="row" id="slider">
-        <img src="img\slide_Bac_Sy_3.png" alt="slider_1" width="768px" height="auto">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <img src="C:\Users\Dinh Thuan\Desktop\ThienNhien\1.jpg" alt="Chania" width="768" height="345">
+              <div class="carousel-caption">
+                <h3>slider 1</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="C:\Users\Dinh Thuan\Desktop\ThienNhien\2.jpg" alt="Chania" width="768" height="345">
+              <div class="carousel-caption">
+                <h3>Slider 2</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="C:\Users\Dinh Thuan\Desktop\ThienNhien\2.jpg" alt="Flower" width="768px" height="345px">
+              <div class="carousel-caption">
+                <h3>slider 3</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="C:\Users\Dinh Thuan\Desktop\ThienNhien\2.jpg" alt="Flower" width="768" height="345">
+              <div class="carousel-caption">
+                <h3>slider 4</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
       <div class="row" id="function">
         <h3><b>Tính năng sản phẩm</b></h3>
