@@ -1,13 +1,21 @@
+*{
+	margin: 0;
+	padding:0;
+}
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+        html, html * {
+          font-family: Roboto;
+        }*/
 body{
 	/*font-family: Roboto;*/
-	max-width: 768px;
-	width: 100%;
-	margin: auto;
+	width: 768px;
+	/*width: 100%;*/
+	/*margin: auto;*/
 	height: auto;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 #banner{
-	min-width: 768px;
+	width: 768px;
 }
 /*===================================style menu=================*/
 /*.dropbtn {
@@ -33,24 +41,31 @@ body{
 .dropdown-content {
 	text-align: center; /*them*/
 	/*padding-right: 10px;  dang them dong nay*/
+	margin-left: -14px;
 	display: none;
 	position: absolute;
-	background-color: #079e4b;
+	/*background-color: #079e4b;*/
+	background-color: rgba(7,158,75,0.8);
 	width: 150px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+	/*z-index: 1;*/
 }
 
 .dropdown-content a {
 	color: white;
 	/*width: 200px;*/
 	/*padding: 12px 16px;*/
-	padding-top: 12px;
+	text-decoration: none;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	padding-right: 20px;
+	line-height: 20px
 	text-decoration: none;
 	display: block;
+	text-shadow: 1px 1px black;
+	font-size: 15px
 }
 
 .dropdown-content a:hover {
@@ -64,6 +79,6 @@ body{
 	/*background-color: #3e8e41;*/
 }
 /*==================================the end style menu==========*/
-#content1{
+#function{
 	text-align: center;
 }
