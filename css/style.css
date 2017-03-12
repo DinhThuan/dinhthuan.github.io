@@ -15,39 +15,6 @@ body{
 	/*border: 1px solid black;*/
 
 }
-/*=====================add=======================================*/
-h1 {
-    font-size:200%;
-}
-h2 {
-    font-size:180%;
-}
-h3 {
-    font-size:150%;
-}
-h4 {
-    font-size:130%;
-}
-h5 {
-    font-size:110%;
-}
-h6 {
-    font-size:90%;
-}
-p{
-    margin: 0 0 .5em 0;
-    padding: 0;
-    text-decoration: justify;
-}
-/*==============================================================*/
-
-
-
-
-p{
-	font-size: 20px;
-	border-bo
-}
 #banner{
 	width: 100%;
 }
