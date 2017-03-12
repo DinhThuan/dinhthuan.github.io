@@ -40,7 +40,8 @@ p{
     font-size: 30px;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    border-bottom: 1px solid white;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
