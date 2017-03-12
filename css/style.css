@@ -8,14 +8,15 @@
         }*/
 body{
 	/*font-family: Roboto;*/
-	width: 768px;
-	/*width: 100%;*/
+	/*width: 768px;*/
+	width: 100%;
 	/*margin: auto;*/
 	height: auto;
 	/*border: 1px solid black;*/
 }
 p{
 	font-size: 20px;
+	border-bo
 }
 #banner{
 	width: 100%;
@@ -24,7 +25,7 @@ p{
 .sidenav {
     display: none;
     height: 100%;
-    width: 500px;
+    max-width: 450px;
     position: fixed;
     z-index: 1;
     top: 0;
