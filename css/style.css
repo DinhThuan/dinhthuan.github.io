@@ -9,10 +9,11 @@
 body{
 	/*font-family: Roboto;*/
 	/*width: 768px;*/
-	width: 100%;
+	width: auto;
 	/*margin: auto;*/
 	height: auto;
 	/*border: 1px solid black;*/
+
 }
 p{
 	font-size: 20px;
@@ -42,7 +43,7 @@ p{
     color: #818181;
     display: block;
     transition: 0.3s;
-    border-bottom: 1px solid white;
+    border-bottom:1px white dotted ;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
