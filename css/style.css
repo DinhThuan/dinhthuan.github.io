@@ -7,14 +7,43 @@
           font-family: Roboto;
         }*/
 body{
-	/*font-family: Roboto;*/
-	width: 768px;
-	width: auto;
+	
+	/*width: 768px;*/
+	/*width: auto;*/
 	/*margin: auto;*/
-	height: auto;
+	/*height: auto;*/
 	/*border: 1px solid black;*/
 
 }
+/*=====================add=======================================*/
+h1 {
+    font-size:200%;
+}
+h2 {
+    font-size:180%;
+}
+h3 {
+    font-size:150%;
+}
+h4 {
+    font-size:130%;
+}
+h5 {
+    font-size:110%;
+}
+h6 {
+    font-size:90%;
+}
+p{
+    margin: 0 0 .5em 0;
+    padding: 0;
+    text-decoration: justify;
+}
+/*==============================================================*/
+
+
+
+
 p{
 	font-size: 20px;
 	border-bo
@@ -39,7 +68,7 @@ p{
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
