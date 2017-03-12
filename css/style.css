@@ -24,7 +24,7 @@ p{
 .sidenav {
     display: none;
     height: 100%;
-    width: 350px;
+    width: 500px;
     position: fixed;
     z-index: 1;
     top: 0;
