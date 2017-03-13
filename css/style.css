@@ -58,7 +58,7 @@ h6 {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -82,6 +82,6 @@ h6 {
   .sidenav a {font-size: 18px;}
 }
 /*==================================the end style menu==========*/
-#function{
+#product_function{
 	text-align: center;
 }
