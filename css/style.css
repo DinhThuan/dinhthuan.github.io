@@ -85,3 +85,7 @@ h6 {
 #features{
 	text-align: center;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
