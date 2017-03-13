@@ -79,7 +79,7 @@ h6 {
 }
 .closebtn{
     font-size: 40px;
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 @media screen and (max-height: 450px) {
@@ -123,7 +123,7 @@ p{
 
 /*Css desktop*/
 
-@media only screen and (min-width: 641px) { 
+@media only screen and (min-width: 768px) { 
     body {
         max-width:700px;
         margin: 0 auto;
@@ -133,8 +133,3 @@ p{
     }
 }
  
-@media only screen and(min-width: 568px){
-    #product_function .item img {
-        width: auto !important;   
-    }
-}
