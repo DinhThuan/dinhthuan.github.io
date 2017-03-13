@@ -85,3 +85,12 @@ h6 {
 #product_function{
 	text-align: center;
 }
+#product_function h2,h4{
+    padding-top: 15px;
+}
+/*@media screen and(max-width: 321px){
+    #product_function h4{
+        font-size: 80%;
+
+    }
+}*/
