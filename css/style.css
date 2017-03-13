@@ -81,12 +81,16 @@ h6 {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/*==================================the end style menu==========*/
+
+/*style chức năng sản phẩm*/
 #product_function{
 	text-align: center;
 }
-#product_function h2,h4{
+#product_function h2{
     padding-top: 15px;
+}
+#product_function h4{
+    padding-top: 10px;
 }
 /*@media screen and(max-width: 321px){
     #product_function h4{
@@ -94,3 +98,14 @@ h6 {
 
     }
 }*/
+p{
+    margin-top: -3px;
+}
+#product_function button{
+    width: 130px;
+    height: 36px;
+    background-color: white;
+    border:1px solid #00b83c;
+    border-radius: 5%;
+    color: #00b83c;
+}
