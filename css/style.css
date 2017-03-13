@@ -77,6 +77,10 @@ h6 {
     font-size: 36px;
     margin-left: 50px;
 }
+.closebtn{
+    font-size: 40px;
+    border-bottom: none;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -124,6 +128,12 @@ p{
         max-width:700px;
         margin: 0 auto;
     }
+    #product_function .item img {
+        width: auto !important;   
+    }
+}
+ 
+@media only screen and(min-width: 568px){
     #product_function .item img {
         width: auto !important;   
     }
