@@ -121,7 +121,7 @@ p{
     color: #00b83c;
 }
 
-/*Css desktop*/
+/*   ==================Css desktop ======================== */
 
 @media only screen and (min-width: 768px) { 
     body {
@@ -131,6 +131,12 @@ p{
     }
     #product_function .item img {
         width: auto !important;   
+    }
+    #baochi img{
+        width: 100px !important;
+    }
+    #baochi h3{
+        font-size: 200%;
     }
 }
 
@@ -191,10 +197,12 @@ p{
     padding: 16px 0 8px 0px;
  }
  /*===============sua lai cho nay=========*/
-button{
+#down_app button{
     
     border-radius: 50%;
     border: none !important;
+    /*margin-bottom: 100px;*/
+    margin: 20px 0 60px 0;
 }
 #baochi{
     text-align: center;
