@@ -202,3 +202,17 @@ button{
 #baochi h3{
     padding: 16px 0 8px 0;
 }
+
+
+
+
+
+/*==================style footer=====================*/
+#footer{
+    background-color: #078c40;
+    color: white;
+}
+#footer p{
+    padding-left: 30px;
+    line-height: 1.1;
+}
