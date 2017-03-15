@@ -127,12 +127,14 @@ p{
     body {
         max-width:700px;
         margin: 0 auto;
-        bot
+      
     }
     #product_function .item img {
         width: auto !important;   
     }
 }
+
+
  
 /*================style ứng dụng cho bác sỹ==============*/
 #application_doctor{
@@ -175,3 +177,20 @@ p{
     /*position: relative;*/
     /*padding-right: 20px;*/
  }
+
+
+ /*===========style Tải ứng dụng EHRs=============*/
+ #down_app{
+    text-align: center;
+    background-image: url(../img/nen3.png);
+    color: white;
+ }
+ #down_app h3{
+    padding: 20px 0 10px 0px;
+ }
+button{
+    
+    border-radius: 50%;
+    border: none !important;
+
+}
