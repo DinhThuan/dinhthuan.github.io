@@ -183,6 +183,8 @@ p{
  #down_app{
     text-align: center;
     background-image: url(../img/nen3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     color: white;
  }
  #down_app h3{
