@@ -13,7 +13,7 @@
         <script type="text/javascript" src="javascript.js"></script>
         <style type="text/css">
             body{
-                
+                background-color: red;
             }
           .carousel-inner > .item > img,
           .carousel-inner > .item > a > img {
@@ -21,30 +21,7 @@
             margin: auto;
           }
         </style>
-    </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row" id="banner" style="background-color: #b3b3b3">
-        <div class="col-xs-2">
-            <img style="margin-left: -13px; padding-top: 10px;" src="img\logo.png" alt="logo" width="45px">
-        </div>
-        <div class="col-xs-8">
-            <h5 style="padding-top: 15px;left: 0;">ELECTRONIC HEALTH RECORDS</h5>
-            <h6>Luôn bên bạn khi bạn cần tới chúng tôi</h6>
-        </div>
-        <div class="dropdown col-xs-2" style="top: 10px; left: 25px">
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html"><i style="font-size: 28px" class="ion-home"></i> Trang Chủ </a>
-                <a href="#">Sức khỏe</a>
-                <a href="#">Dành cho người dùng</a>
-                <a href="#">Dành cho bác sỹ</a>
-                <a href="#">Xét nghiệm tại nhà</a>
-                <a href="#">EHRs</a>
-            </div>
-            <span style="font-size:40px;" onclick="openNav()" class="ion-navicon-round"></span>
-
-            <script>
+         <script>
                 function openNav() {
                   document.getElementById("mySidenav").style.display = "block";
               }
@@ -53,8 +30,30 @@
                   document.getElementById("mySidenav").style.display = "none";
               }
           </script>
+    </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row" id="banner">
+            <div class="col-xs-2">
+                <img style="margin-left: -13px; padding-top: 10px;" src="img\logo.png" alt="logo" width="45px">
+            </div>
+            <div class="col-xs-8">
+                <h5 style="padding-top: 15px;left: 0;">ELECTRONIC HEALTH RECORDS</h5>
+                <h6>Luôn bên bạn khi bạn cần tới chúng tôi</h6>
+            </div>
+            <div class="dropdown col-xs-2">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html"><i style="font-size: 28px" class="ion-home"></i> Trang Chủ </a>
+                    <a href="#">Sức khỏe</a>
+                    <a href="#">Dành cho người dùng</a>
+                    <a href="#">Dành cho bác sỹ</a>
+                    <a href="#">Xét nghiệm tại nhà</a>
+                    <a href="#">EHRs</a>
+                </div>
+                <span style="font-size:40px;" onclick="openNav()" class="ion-navicon-round"></span>
+            </div>
         </div>
-    </div>
 
 <!-- =============slider=================== -->
 
@@ -117,10 +116,11 @@
         </div>
       </div>
 
+
       <!-- ===========================Tính năng sản phẩm============= -->
 
     <div class="row" id="product_function">
-        <div class="col-xs12">
+        <div class="col-xs-12">
             <h2><b>Tính năng sản phẩm</b></h2>
             <h4 style="opacity: 0.5">Thông tin cá nhân của bạn và người thân luôn được an toàn và bảo mật</h4>
             <!-- item1 -->
@@ -172,7 +172,7 @@
       <!--========= ung dung cho bac sy ====================-->
 
     <div class="row" id="application_doctor" style="padding-top: 12px">
-        <div class="col-xs12">
+        <div class="col-xs-12">
             <div id="doctor1">
                 <div id="doctor2">
                     <h4><b>Ứng dụng cho bác sỹ</b></h4>
@@ -192,7 +192,7 @@
  
 <!-- =========================hỏi đáp với bác sỹ=========== -->
         <div class="row" id="question_answer">
-            <div class="col-xs12">
+            <div class="col-xs-12">
                 <div id="question" style="">
                     <h3><b>Thắc mắc cùng chuyên gia</b></h3>
                     <p><b>Tiêm vacxin 5 in 1 cho trẻ sơ sinh bị bệnh động kinh có được không ạ?</b><br>
@@ -214,7 +214,7 @@
 
 <!-- ===============Tải ứng dụng EHRs============ -->
         <div class="row" id="down_app">
-            <div class="col-xs12">
+            <div class="col-xs-12">
                 <h3 id="center">Tải ứng dụng EHRs</h3>
                 <p>Các ứng dụng của chúng tôi có mặt trên Appstore và Google Play</p>
                 <div class="row">
@@ -231,12 +231,12 @@
             </div>
         </div>
     <!-- ============= báo chi nói về EHRs================== -->
-        <div class="row" id="baochi">
-            <div class="col-xs12">
+        <div class="row" id="baochi" style="background-color: #a3a3a3">
+            <div class="col-xs-12">
                 <h3><b>Báo Chí nói về EhRs</b></h3>
                 <div class="row" style="padding: 10px 0 10px 0">
                     <div class="col-xs-3">
-                        <img src="img\logo1.png" width="65px">
+                        <img src="img\logo1.png" width="60px">
                     </div>
                     <div class="col-xs-3">
                         <img src="img\logo2.png" width="60px">
@@ -244,9 +244,9 @@
                     <div class="col-xs-3">
                         <img src="img\logo3.png" width="60px">
                     </div>
-                    <div class="col-xs-3">
-                        <img src="img\logo4.png" width="60px">
-                    </div>
+                    <!-- <div class="col-xs-3">
+                        <img src="img\logo4.png" width="40px">
+                    </div> -->
                 </div>
                 <div class="row" style="padding: 5px 0 10px 0">
                     <div class="col-xs-3">
@@ -258,9 +258,9 @@
                     <div class="col-xs-3">
                         <img src="img\logo7.png" width="60px" height="18px">
                     </div>
-                    <div class="col-xs-3">
-                        <img src="img\logo8.png" width="60px">
-                    </div>
+                    <!-- <div class="col-xs-3">
+                        <img src="img\logo8.png" width="40px">
+                    </div> -->
                 </div>
             </div>
         </div>
