@@ -38,9 +38,7 @@ h5 {
 h6 {
     font-size:80%;
 }
-#banner{
-	width: 100%;
-}
+
 /*===================================style menu=================*/
 .sidenav {
     display: none;
@@ -216,6 +214,9 @@ p{
 
 
 /*==================style footer=====================*/
+/*#footer{
+    margin:0 -15px 0 -15px;
+}*/
 #footer{
     background-color: #078c40;
     color: white;
