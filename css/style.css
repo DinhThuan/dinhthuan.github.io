@@ -188,11 +188,17 @@ p{
     color: white;
  }
  #down_app h3{
-    padding: 20px 0 10px 0px;
+    padding: 16px 0 8px 0px;
  }
+ /*===============sua lai cho nay=========*/
 button{
     
     border-radius: 50%;
     border: none !important;
-
+}
+#baochi{
+    text-align: center;
+}
+#baochi h3{
+    padding: 16px 0 8px 0;
 }
