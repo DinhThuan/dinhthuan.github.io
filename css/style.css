@@ -141,8 +141,9 @@ p{
     }
     #banner h6{
         font-size: 120%;
-
-
+    }
+    #banner img{
+        width: 80px;
     }
 }
 
