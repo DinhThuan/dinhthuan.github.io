@@ -13,13 +13,26 @@
         <script type="text/javascript" src="javascript.js"></script>
         <style type="text/css">
             body{
-                background-color: red;
+                /*background-color: red;*/
             }
           .carousel-inner > .item > img,
           .carousel-inner > .item > a > img {
             /*width: 70%;*/
             margin: auto;
           }
+
+/*=========================*/
+            @media only screen and (min-width: 374px) { 
+                body {
+                   /* max-width:700px;
+                    margin: 0 auto;*/
+                  
+                }
+                #banner h5{
+                    font-size: 100%;
+                }
+            }
+
         </style>
          <script>
                 function openNav() {
@@ -34,14 +47,14 @@
   <body>
     <div class="container-fluid">
         <div class="row" id="banner">
-            <div class="col-xs-2">
+            <div class="col-xs-2" style="background-color: red">
                 <img style="margin-left: -13px; padding-top: 10px;" src="img\logo.png" alt="logo" width="45px">
             </div>
-            <div class="col-xs-8">
-                <h5 style="padding-top: 15px;left: 0;">ELECTRONIC HEALTH RECORDS</h5>
-                <h6>Luôn bên bạn khi bạn cần tới chúng tôi</h6>
+            <div class="col-xs-8" style="background-color: yellow">
+                <h5 style="margin-left: -15px; padding-right: -15px; padding-top: 15px">ELECTRONIC HEALTH RECORDS</h5>
+                <h6 style="margin-left: -15px;">Luôn bên bạn khi bạn cần tới chúng tôi</h6>
             </div>
-            <div class="dropdown col-xs-2">
+            <div class="dropdown col-xs-2" style="background-color: red">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.html"><i style="font-size: 28px" class="ion-home"></i> Trang Chủ </a>
@@ -51,7 +64,7 @@
                     <a href="#">Xét nghiệm tại nhà</a>
                     <a href="#">EHRs</a>
                 </div>
-                <span style="font-size:40px;" onclick="openNav()" class="ion-navicon-round"></span>
+                <span style="font-size:40px" onclick="openNav()" class="ion-navicon-round"></span>
             </div>
         </div>
 
@@ -231,36 +244,36 @@
             </div>
         </div>
     <!-- ============= báo chi nói về EHRs================== -->
-        <div class="row" id="baochi" style="background-color: #a3a3a3">
+        <div class="row" id="baochi" >
             <div class="col-xs-12">
                 <h3><b>Báo Chí nói về EhRs</b></h3>
                 <div class="row" style="padding: 10px 0 10px 0">
                     <div class="col-xs-3">
-                        <img src="img\logo1.png" width="60px">
+                        <img src="img\logo1.png" width="60px" height="18px">
                     </div>
                     <div class="col-xs-3">
-                        <img src="img\logo2.png" width="60px">
+                        <img src="img\logo2.png" width="60px" height="18px">
                     </div>
                     <div class="col-xs-3">
-                        <img src="img\logo3.png" width="60px">
+                        <img src="img\logo3.png" width="60px" height="18px">
                     </div>
-                    <!-- <div class="col-xs-3">
-                        <img src="img\logo4.png" width="40px">
-                    </div> -->
+                    <div class="col-xs-3">
+                        <img src="img\logo4.png" width="60px" height="18px">
+                    </div>
                 </div>
                 <div class="row" style="padding: 5px 0 10px 0">
                     <div class="col-xs-3">
-                        <img src="img\logo5.png" width="60px">
+                        <img src="img\logo5.png" width="60px" height="18px">
                     </div>
                     <div class="col-xs-3">
-                        <img src="img\logo6.png" width="60px">
+                        <img src="img\logo6.png" width="60px" height="18px">
                     </div>
                     <div class="col-xs-3">
                         <img src="img\logo7.png" width="60px" height="18px">
                     </div>
-                    <!-- <div class="col-xs-3">
-                        <img src="img\logo8.png" width="40px">
-                    </div> -->
+                    <div class="col-xs-3">
+                        <img src="img\logo8.png" width="60px" height="18px">
+                    </div>
                 </div>
             </div>
         </div>
