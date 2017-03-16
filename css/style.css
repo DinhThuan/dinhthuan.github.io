@@ -190,7 +190,18 @@ p{
     /*position: relative;*/
     /*padding-right: 20px;*/
  }
-
+ #question{
+    /*position: relative;*/
+ }
+#read_more{
+   
+   /*position:absolute;*/
+   padding-left: 150px;
+   padding-bottom: 35px;
+   margin-bottom: -10px;
+   margin-top: -10px;
+    
+}
 
  /*===========style Tải ứng dụng EHRs=============*/
  #down_app{
